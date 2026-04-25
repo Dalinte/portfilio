@@ -36,4 +36,8 @@ Thumbs.db
 # Playwright
 .playwright-mcp/
 
+#docs
+docs/
+
+
 
