@@ -1,0 +1,48 @@
+import type { LinkData } from '../types';
+
+export const links: LinkData[] = [
+  {
+    id: 'github',
+    name: 'GitHub',
+    url: 'https://github.com/username',
+    emoji: '🐙',
+    color: '#ffffff',
+    orbitRadius: 3,
+    orbitSpeed: 0.4,
+    orbitOffset: 0,
+    orbitY: 1.5,
+  },
+  {
+    id: 'linkedin',
+    name: 'LinkedIn',
+    url: 'https://linkedin.com/in/username',
+    emoji: '💼',
+    color: '#0A66C2',
+    orbitRadius: 3.5,
+    orbitSpeed: 0.35,
+    orbitOffset: Math.PI / 2,
+    orbitY: 0,
+  },
+  {
+    id: 'email',
+    name: 'Email',
+    url: 'mailto:you@example.com',
+    emoji: '✉️',
+    color: '#EA4335',
+    orbitRadius: 3,
+    orbitSpeed: 0.45,
+    orbitOffset: Math.PI,
+    orbitY: -1,
+  },
+  {
+    id: 'twitter',
+    name: 'Twitter',
+    url: 'https://twitter.com/username',
+    emoji: '🐦',
+    color: '#1DA1F2',
+    orbitRadius: 3.5,
+    orbitSpeed: 0.38,
+    orbitOffset: Math.PI * 1.5,
+    orbitY: 0.8,
+  },
+];
